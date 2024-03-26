@@ -1,0 +1,35 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "MFTMonitor"=.\MFTMonitor.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+    {4EB51ED8-65AE-4535-A44A-B72A371A7542}
+    {6EAC5681-731A-40BC-8F75-1DBC0992513A}
+    {FC774EEA-372A-4B70-905F-07B9EC87298A}
+    {6262D3A0-531B-11CF-91F6-C2863C385E30}
+    {67397AA3-7FB1-11D0-B148-00A0C922E820}
+    {CDE57A43-8B86-11D0-B3C6-00A0C90AEA82}
+}}}
+
+###############################################################################
+

@@ -1,0 +1,343 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MFTMonitor - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\NXQ\AppData\Local\Temp\RSPA4CB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MFTMonitor.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MSC_MetkaPic\Threads.cpp"
+]
+Creating command line "cl.exe @C:\Users\NXQ\AppData\Local\Temp\RSPA4CB.tmp" 
+Creating temporary file "C:\Users\NXQ\AppData\Local\Temp\RSPA4CC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MFTMonitor.pdb" /debug /machine:I386 /out:"Debug/MFTMonitor.exe" /pdbtype:sept 
+.\Debug\_recordset.obj
+.\Debug\adodc.obj
+.\Debug\CalibDlg.obj
+.\Debug\column.obj
+.\Debug\columns.obj
+.\Debug\Comm.obj
+.\Debug\CurveAttr.obj
+.\Debug\dataformatdisp.obj
+.\Debug\datagrid.obj
+.\Debug\EditData.obj
+.\Debug\fields.obj
+.\Debug\font.obj
+.\Debug\GaugeCtrlSettings.obj
+.\Debug\GridCtrl.obj
+.\Debug\GridDropTarget.obj
+.\Debug\InPlaceEdit.obj
+.\Debug\InPlaceList.obj
+.\Debug\LockSplitter.obj
+.\Debug\MainFrm.obj
+.\Debug\mftdepth.obj
+.\Debug\mftgauge.obj
+.\Debug\MFTMonitor.obj
+.\Debug\MFTMonitorDoc.obj
+.\Debug\MFTMonitorView.obj
+.\Debug\mftposition.obj
+.\Debug\MRGFILE.OBJ
+.\Debug\msflexgrid.obj
+.\Debug\MyToolBar.obj
+.\Debug\Panel.obj
+.\Debug\picture.obj
+.\Debug\Position.obj
+.\Debug\Presentation.obj
+.\Debug\properties.obj
+.\Debug\property.obj
+.\Debug\Relog.obj
+.\Debug\rowcursor.obj
+.\Debug\selbookmarks.obj
+.\Debug\split.obj
+.\Debug\splits.obj
+.\Debug\StdAfx.obj
+.\Debug\stddataformatsdisp.obj
+.\Debug\Threads.obj
+.\Debug\TrackAttr.obj
+.\Debug\View2.obj
+.\Debug\View3.obj
+.\Debug\Watch.obj
+.\Debug\MFTMonitor.res
+]
+Creating command line "link.exe @C:\Users\NXQ\AppData\Local\Temp\RSPA4CC.tmp"
+<h3>Output Window</h3>
+Compiling...
+Threads.cpp
+D:\MSC_MetkaPic\Threads.cpp(252) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(261) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(261) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(262) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(262) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(288) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(288) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(309) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(503) : warning C4244: 'initializing' : conversion from 'long' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(546) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(551) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(565) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(565) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(566) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(566) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(593) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(593) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(614) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(510) : warning C4101: 'systime' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(792) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(793) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(872) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(880) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(880) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(881) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(881) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(907) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(907) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(928) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(957) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(967) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(968) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(969) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(970) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(990) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(991) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(1002) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(1014) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(1015) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(1025) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(1026) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(1037) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(1038) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(1185) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(1186) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(1189) : warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(1090) : warning C4101: 'width' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(1091) : warning C4101: 'curWidth' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(1084) : warning C4101: 'i' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(1084) : warning C4101: 'j' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(1179) : warning C4101: 'ftemp' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(1355) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\MSC_MetkaPic\Threads.cpp(1355) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\MSC_MetkaPic\Threads.cpp(1355) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\MSC_MetkaPic\Threads.cpp(1355) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+D:\MSC_MetkaPic\Threads.cpp(1523) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\MSC_MetkaPic\Threads.cpp(1525) : warning C4305: '=' : truncation from 'const double' to 'float'
+D:\MSC_MetkaPic\Threads.cpp(1574) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(1575) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(1886) : warning C4018: '>=' : signed/unsigned mismatch
+D:\MSC_MetkaPic\Threads.cpp(2574) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2616) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2617) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2619) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2620) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2621) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2645) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2646) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2648) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2649) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2650) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2696) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2697) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2699) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2700) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2701) : warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(2824) : warning C4018: '==' : signed/unsigned mismatch
+D:\MSC_MetkaPic\Threads.cpp(2950) : warning C4018: '==' : signed/unsigned mismatch
+D:\MSC_MetkaPic\Threads.cpp(1727) : warning C4101: 'dwEventMask' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(1723) : warning C4101: 'dwResWrite' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(1723) : warning C4101: 'dwResRead' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(1719) : warning C4101: 'temp' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(1697) : warning C4101: 'k' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(1731) : warning C4101: 'sz' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(1726) : warning C4101: 'bRead_Status' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(3088) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(3205) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3210) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3216) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3167) : warning C4101: 'ui' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(3167) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(3269) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3278) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3283) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3284) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3307) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3308) : warning C4244: '/=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3322) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3235) : warning C4101: 'ui' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(3398) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3406) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3411) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3417) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3426) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3438) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3464) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3465) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3357) : warning C4101: 'ui' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(3509) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3512) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3472) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(3528) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(3577) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3582) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3585) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3590) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3593) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3596) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3605) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3611) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3616) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3621) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3631) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3655) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3656) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3680) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3681) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3725) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3731) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3737) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3750) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3773) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3774) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3558) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(3559) : warning C4101: 'fa' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(3801) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(3862) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3884) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3900) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3920) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3926) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3940) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3946) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3960) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3978) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(3996) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4012) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4030) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4048) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4064) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4082) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4098) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4113) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4128) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4135) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4137) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4165) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4211) : warning C4244: '=' : conversion from 'unsigned long' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4212) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4198) : warning C4101: 'ft' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4197) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4248) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4292) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4293) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4279) : warning C4101: 'ft' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4278) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4329) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4383) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4387) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4391) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4394) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4416) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4417) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4418) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4419) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4363) : warning C4101: 'ft' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4475) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4479) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4483) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4486) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4504) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4505) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4506) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4507) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4508) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4452) : warning C4101: 'ft' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4451) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4529) : warning C4101: 'ft' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4528) : warning C4101: 'j' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4528) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4618) : warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4619) : warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4625) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4632) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4633) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4634) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4604) : warning C4101: 'ft' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4603) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4667) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4726) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4727) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4744) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4751) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4760) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4765) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4770) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4800) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4806) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4809) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4826) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4827) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4844) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4851) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4861) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4866) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4873) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4913) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4917) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4918) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4926) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4927) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4695) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4946) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(4997) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(4975) : warning C4101: 'it' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(5049) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5096) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5097) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5098) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5099) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5100) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5101) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5072) : warning C4101: 'az' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(5112) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5113) : warning C4244: '/=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5128) : warning C4101: 'ng' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(5126) : warning C4101: 'fg' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(5127) : warning C4101: 'fl1' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(5128) : warning C4101: 'nl' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(5127) : warning C4101: 'fl2' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(5126) : warning C4101: 'fl' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(5256) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5258) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5317) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5326) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5333) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5340) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5344) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5345) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5361) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5368) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5369) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5383) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5384) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5398) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5399) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5271) : warning C4101: 'fl1' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(5271) : warning C4101: 'fl2' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(5416) : warning C4018: '<' : signed/unsigned mismatch
+D:\MSC_MetkaPic\Threads.cpp(5476) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5513) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\MSC_MetkaPic\Threads.cpp(5429) : warning C4101: 'ft' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(5429) : warning C4101: 'fbuf' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(5612) : warning C4101: 'aa' : unreferenced local variable
+D:\MSC_MetkaPic\Threads.cpp(1191) : warning C4715: 'DataToScr' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+MFTMonitor.exe - 0 error(s), 265 warning(s)
+</pre>
+</body>
+</html>
