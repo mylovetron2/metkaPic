@@ -1,0 +1,9 @@
+Compiling D:\Pic\DauMet\metkapic on 19-Mar-24 at 16:21
+>>> Warning 203 "D:\Pic\DauMet\metkapic.c" Line 663(1,1): Condition always TRUE
+>>> Warning 216 "D:\Pic\DauMet\metkapic.c" Line 914(1,2): Interrupts disabled during call to prevent re-entrancy:  (@MUL88)
+>>> Warning 202 "D:\Pic\DauMet\metkapic.c" Line 61(6,15): Variable never used:   com_count
+>>> Warning 202 "D:\Pic\DauMet\metkapic.c" Line 61(25,27): Variable never used:   dd
+>>> Warning 202 "D:\Pic\DauMet\metkapic.c" Line 61(28,36): Variable never used:   dmt_flag
+      Memory usage:   ROM=92%      RAM=64% - 82%
+      0 Errors,  5 Warnings.
+Build Successful.
